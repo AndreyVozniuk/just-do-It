@@ -1,2 +1,2 @@
 # justDoIt-angular
-My first angular project, don't judge me harshly: D
+This is a simple task manager. Maybe I will add more functionality for this in the future;)
