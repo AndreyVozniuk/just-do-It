@@ -1,0 +1,13 @@
+<div class="block-tasks"  *ngIf='tasks.length != 0; else noTask'>
+    <app-task  
+    *ngFor='let task of tasks'
+    [taskTxt]='task.text'
+    [taskID]='task.id'
+    [deleteTask] = 'deleteTask'
+    >
+    </app-task>
+</div>
+
+<ng-template #noTask>
+    <p class="block-tasks_txt">You haven`t task, lets go add it and just do it!</p>
+</ng-template>

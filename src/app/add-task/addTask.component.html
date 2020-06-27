@@ -1,0 +1,4 @@
+<div class='content-add'>
+    <input type='text' placeholder='Input your task here' #taskInput (keyup)='taskAddEnter($event, taskInput)'> 
+    <button (click) = 'taskAddClick(taskInput)'>Add</button>
+</div>

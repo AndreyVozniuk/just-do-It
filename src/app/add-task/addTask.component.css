@@ -1,0 +1,30 @@
+.content-add{
+    margin-left: 18px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.content-add > input {
+    width: 79%;
+    margin-right: 15px;
+    border: 1.5px solid gray;
+    border-radius: 4px;
+    height: 24px;
+    padding-left: 5px;
+    font-size: 16px;
+    font-family: 'Ubuntu';
+}
+.content-add > button {
+    width: 15%;
+    height: 31px;
+    border: 1.5px solid gray;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: 'Ubuntu';
+    cursor: pointer;
+    outline: none;
+}
+.content-add > button:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}

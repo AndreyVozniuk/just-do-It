@@ -1,0 +1,42 @@
+.task{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.task-btns > button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.task-btnDelete > img{
+    width: 120%;
+}
+.task-btnConfirm > img{
+    width: 123%;
+    border-radius: 30px;
+}
+.task-btnConfirm{
+    margin-right: 10px;
+}
+.task-text{
+    width: 70%;
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: Ubuntu;
+    padding-bottom: 4px;
+}
+.task-line{
+    width: 97%;
+    height: 2px;
+    background: gray;
+    margin-left: 19px;
+    margin-bottom: 5px;
+}
+.taskComplete{
+    text-decoration: line-through;
+}
+.taskCompleteBtn{
+    background: aquamarine;
+    transition: linear 0.2s;
+}

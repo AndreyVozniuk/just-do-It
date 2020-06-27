@@ -1,0 +1,39 @@
+html, body {
+ margin: 0;
+ padding: 0;
+}
+.content {
+   border: 2px solid gray;
+   border-radius: 50px;
+   width: 50vw;
+   height: 80%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.wrapper{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-image: url('../assets/background.jpg');
+}
+.content-wrap{
+   width: 95%;
+   height: 100%;
+}
+.content-title{
+   margin-top: 30px;
+   margin-left: 18px;
+   font-size: 34px;
+   font-weight: 900;
+   color: dimgrey;
+   font-family: 'Ubuntu', sans-serif;
+   border-bottom: 2px dashed dimgrey;
+   padding-bottom: 10px;
+   width: 95%;
+}

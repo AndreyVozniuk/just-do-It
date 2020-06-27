@@ -1,0 +1,11 @@
+.block-tasks{
+    width: 98%;
+    height: 77%;
+    overflow: auto;
+}
+.block-tasks_txt {
+    margin-left: 22px;
+    font-size: 25px;
+    font-family: 'Ubuntu';
+}
+.block-tasks::-webkit-scrollbar { width: 0; }

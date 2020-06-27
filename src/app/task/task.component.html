@@ -1,0 +1,13 @@
+<div class="task">
+    <div class="task-text" [ngClass] = '{taskComplete: taskComplete}'>{{taskTxt}}</div>
+    <div class="task-btns">
+        <button class="task-btnConfirm" (click)='completeTask()'>
+            <img src="../assets/confirm_icon.svg" alt="confirm icon" [ngClass] = '{taskCompleteBtn: taskCompleteBtn}'>
+        </button>
+        <button class="task-btnDelete" (click)='taskDelete()'>
+            <img src="../assets/delete_icon.svg" alt="delete icon">
+        </button>
+    </div>
+</div>
+<div class="task-line"></div>
+
